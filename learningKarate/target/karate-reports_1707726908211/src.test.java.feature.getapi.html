@@ -1,0 +1,3394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.feature.getapi</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-02-12 01:56:46 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>get user details</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:19]"><span>[2:19]</span> <span>get user details</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/feature/getapi.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">GET API feature</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">get user details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2867</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://restful-booker.herokuapp.com/apidoc&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">75</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://restful-booker.herokuapp.com/apidoc/index.html&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2684</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">13:56:42.971 request:
+1 &gt; GET https://restful-booker.herokuapp.com/apidoc/index.html
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+13:56:45.097 response time in milliseconds: 2119
+1 &lt; 200
+1 &lt; Server: Cowboy
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1707726405&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=kf59qMkyPvA0ljZw6AjyeM0hpjLtxQuwCBcUJWcFOMo%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707726405&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=kf59qMkyPvA0ljZw6AjyeM0hpjLtxQuwCBcUJWcFOMo%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Accept-Ranges: bytes
+1 &lt; Cache-Control: public, max-age=0
+1 &lt; Last-Modified: Wed, 13 Dec 2023 20:49:47 GMT
+1 &lt; Etag: W/&quot;7485-18c64f155f8&quot;
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Content-Length: 29829
+1 &lt; Date: Mon, 12 Feb 2024 08:26:45 GMT
+1 &lt; Via: 1.1 vegur
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+  &lt;title&gt;Loading...&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+  &lt;link href=&quot;vendor/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+  &lt;link href=&quot;vendor/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+  &lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen, print&quot;&gt;
+  &lt;link href=&quot;img/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot;&gt;
+  &lt;script src=&quot;vendor/polyfill.js&quot;&gt;&lt;/script&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body class=&quot;container-fluid&quot;&gt;
+
+&lt;script id=&quot;template-sidenav&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+&lt;nav id=&quot;scrollingNav&quot;&gt;
+  &lt;div class=&quot;sidenav-search&quot;&gt;
+    &lt;input class=&quot;form-control search&quot; type=&quot;text&quot; placeholder=&quot;{{__ &quot;Filter...&quot;}}&quot;&gt;
+    &lt;span class=&quot;search-reset&quot;&gt;x&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;sidenav nav nav-list list&quot;&gt;
+  {{#each nav}}
+    {{#if title}}
+      {{#if isHeader}}
+        {{#if isFixed}}
+          &lt;li class=&quot;nav-fixed nav-header navbar-btn nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-name=&quot;show-api-{{group}}&quot; class=&quot;show-api api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{else}}
+          &lt;li class=&quot;nav-header nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-group=&quot;show-api-{{group}}&quot; class=&quot;show-group api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{/if}}
+      {{else}}
+        &lt;li class=&quot;{{#if hidden}}hide {{/if}}&quot; data-group=&quot;{{group}}&quot; data-name=&quot;{{name}}&quot; data-version=&quot;{{version}}&quot;&gt;
+          &lt;a href=&quot;#api-{{group}}-{{name}}&quot; title=&quot;{{url}}&quot; data-group=&quot;show-api-{{group}}&quot; data-name=&quot;show-api-{{group}}-{{name}}&quot; class=&quot;nav-list-item show-api api-{{group}}-{{name}}-init&quot;&gt;{{title}}&lt;div class=&quot;nav-list-url-item hide&quot;&gt;{{url}}&lt;/div&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/if}}
+  {{/each}}
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-project&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;div class=&quot;pull-left&quot;&gt;
+    &lt;h1&gt;{{name}}&lt;/h1&gt;
+    {{#if description}}&lt;h2&gt;{{{nl2br description}}}&lt;/h2&gt;{{/if}}
+    &lt;p&gt;&lt;a href=&quot;https://www.buymeacoffee.com/mwinteringham&quot;&gt;&lt;img src=&quot;https://img.buymeacoffee.com/button-api/?text=Buy me a tea&amp;emoji=&amp;slug=mwinteringham&amp;button_colour=5F7FFF&amp;font_colour=ffffff&amp;font_family=Lato&amp;outline_colour=000000&amp;coffee_colour=FFDD00&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pull-right&quot;&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;btn-group&quot;&gt;
+      &lt;button id=&quot;version&quot; class=&quot;btn btn-lg btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+        &lt;strong&gt;{{version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;ul id=&quot;versions&quot; class=&quot;dropdown-menu open-left&quot;&gt;
+        &lt;li&gt;&lt;a id=&quot;compareAllWithPredecessor&quot; href=&quot;#&quot;&gt;{{__ &quot;Compare all with predecessor&quot;}}&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;show up to version:&quot;}}&lt;/a&gt;&lt;/li&gt;
+      {{#each versions}}
+        &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    {{else}}
+    &lt;div id=&quot;version&quot; class=&quot;well well-sm&quot;&gt;
+      &lt;strong&gt;{{version}}&lt;/strong&gt;
+    &lt;/div&gt;
+    {{/if}}
+  &lt;/div&gt;
+  &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-header&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-footer&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_footer&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-generator&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if template.withGenerator}}
+    {{#if generator}}
+      &lt;div class=&quot;content&quot;&gt;
+        {{__ &quot;Generated with&quot;}} &lt;a href=&quot;{{{generator.url}}}&quot;&gt;{{{generator.name}}}&lt;/a&gt; {{{generator.version}}} - {{{generator.time}}}
+      &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-sections&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;section id=&quot;api-{{group}}&quot; class=&quot;show-api-group show-api-{{group}}-group {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+    &lt;h1&gt;{{underscoreToSpace title}}&lt;/h1&gt;
+    {{#if description}}
+      &lt;p&gt;{{{nl2br description}}}&lt;/p&gt;
+    {{/if}}
+    {{#each articles}}
+      &lt;div id=&quot;api-{{group}}-{{name}}&quot; class=&quot;show-api-article show-api-{{group}}-article show-api-{{group}}-{{name}}-article {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+        {{{article}}}
+      &lt;/div&gt;
+    {{/each}}
+  &lt;/section&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.groupTitle}}{{#if article.title}} - {{article.title}}{{/if}}&lt;/h1&gt;
+    &lt;/div&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;version btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    {{/if}}
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.author}}&lt;h4 class=&quot;muted&quot;&gt;Authored by: {{article.author}}&lt;/h4&gt;{{/if}}
+
+    {{#if article.deprecated}}
+      &lt;p class=&quot;deprecated&quot;&gt;&lt;span&gt;{{__ &quot;DEPRECATED&quot;}}&lt;/span&gt;
+        {{{markdown article.deprecated.content}}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{#if article.description}}
+      &lt;p&gt;{{{nl2br article.description}}}&lt;/p&gt;
+    {{/if}}
+    &lt;span class=&quot;type type__{{toLowerCase article.type}}&quot;&gt;{{toLowerCase article.type}}&lt;/span&gt;
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-http&quot;&gt;{{article.url}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{#if article.permission}}
+      &lt;p&gt;
+        {{__ &quot;Permission:&quot;}}
+        {{#each article.permission}}
+          {{name}}
+          {{#if title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{title}}&quot; data-content=&quot;{{nl2br description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+              &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{/if}}
+        {{/each}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{!-- CODE EXAMPLES IN TABS --}}
+    {{#if_gt article.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+        {{#each article.examples}}
+          &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+            &lt;a href=&quot;#examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+          &lt;/li&gt;
+        {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each article.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;examples-{{../id}}-{{@index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{content}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+
+    {{subTemplate &quot;article-param-block&quot; params=article.header _hasType=_hasTypeInHeaderFields section=&quot;header&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if params}}
+    {{#each params.fields}}
+      &lt;h2&gt;{{__ @key}}&lt;/h2&gt;
+      &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+          &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        {{#each this}}
+          &lt;tr&gt;
+            &lt;td class=&quot;code&quot;&gt;{{{splitFill field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}{{#if optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}&lt;/td&gt;
+            {{#if ../../_hasType}}
+              &lt;td&gt;
+                {{{type}}}
+              &lt;/td&gt;
+            {{/if}}
+            &lt;td&gt;
+            {{{nl2br description}}}
+            {{#if defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{defaultValue}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if size}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Size range:&quot;}} &lt;code&gt;{{{size}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if allowedValues}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Allowed values:&quot;}}
+              {{#each allowedValues}}
+                &lt;code&gt;{{{this}}}&lt;/code&gt;{{#unless @last}}, {{/unless}}
+              {{/each}}
+              &lt;/p&gt;
+            {{/if}}
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        {{/each}}
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    {{/each}}
+    {{#if_gt params.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+      {{#each params.examples}}
+        &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each params.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;
+        &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{reformat content type}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-sample-request&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    {{#if article.sampleRequest}}
+      &lt;h2&gt;{{__ &quot;Send a Sample Request&quot;}}&lt;/h2&gt;
+      &lt;form class=&quot;form-horizontal&quot;&gt;
+        &lt;fieldset&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;{{../id}}-sample-request-url&quot;&gt;&lt;/label&gt;
+              &lt;div class=&quot;input-group&quot;&gt;
+                &lt;input id=&quot;{{../id}}-sample-request-url&quot; type=&quot;text&quot; class=&quot;form-control sample-request-url&quot; value=&quot;{{article.sampleRequest.0.url}}&quot; /&gt;
+                &lt;span class=&quot;input-group-addon&quot;&gt;{{__ &quot;url&quot;}}&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+      {{#if article.header}}
+        {{#if article.header.fields}}
+          &lt;h3&gt;{{__ &quot;Headers&quot;}}&lt;/h3&gt;
+          {{#each article.header.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-header-group-id=&quot;sample-request-header-{{@index}}&quot; name=&quot;{{../id}}-sample-request-header&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-header sample-request-switch&quot; checked /&gt;{{__ @key}}&lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-header-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-header-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; placeholder=&quot;{{field}}&quot; value=&quot;{{defaultValue}}&quot; id=&quot;sample-request-header-field-{{field}}&quot; class=&quot;form-control sample-request-header&quot; data-sample-request-header-name=&quot;{{field}}&quot; data-sample-request-header-group=&quot;sample-request-header-{{@../index}}&quot;&gt;
+                  &lt;span class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+      {{#if article.parameter}}
+        {{#if article.parameter.fields}}
+          &lt;h3&gt;{{__ &quot;Parameters&quot;}}&lt;/h3&gt;
+          {{#each article.parameter.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-param-group-id=&quot;sample-request-param-{{@index}}&quot;  name=&quot;{{../id}}-sample-request-param&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-param sample-request-switch&quot; checked/&gt;{{__ @key}}
+              &lt;select   name=&quot;{{../id}}-sample-header-content-type&quot; class=&quot;{{../id}}-sample-request-param-select sample-header-content-type sample-header-content-type-switch&quot;&gt;
+                &lt;option value=&quot;undefined&quot;  selected&gt;ajax-auto&lt;/option&gt;
+                &lt;option value=&quot;body-json&quot; &gt;body/json&lt;/option&gt;
+                &lt;option value=&quot;body-form-data&quot; &gt;body/form-data&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-body {{../id}}-sample-header-content-type-body hide&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;textarea id=&quot;sample-request-body-json&quot; class=&quot;form-control sample-request-body&quot; data-sample-request-body-group=&quot;sample-request-param-{{@./index}}&quot; rows=&quot;6&quot; style=&quot;OVERFLOW: visible&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;&lt;/textarea&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;json&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-fields {{../id}}-sample-header-content-type-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-param-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input id=&quot;sample-request-param-field-{{field}}&quot; type=&quot;{{setInputType type}}&quot; placeholder=&quot;{{field}}&quot; class=&quot;form-control sample-request-param&quot; data-sample-request-param-name=&quot;{{field}}&quot; data-sample-request-param-group=&quot;sample-request-param-{{@../index}}&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;div class=&quot;controls pull-right&quot;&gt;
+              &lt;button class=&quot;btn btn-primary sample-request-send&quot; data-sample-request-type=&quot;{{article.type}}&quot;&gt;{{__ &quot;Send&quot;}}&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-group sample-request-response&quot; style=&quot;display: none;&quot;&gt;
+            &lt;h3&gt;
+              {{__ &quot;Response&quot;}}
+              &lt;button class=&quot;btn btn-default btn-xs pull-right sample-request-clear&quot;&gt;X&lt;/button&gt;
+            &lt;/h3&gt;
+            &lt;pre data-type=&quot;json&quot;&gt;&lt;code class=&quot;language-json sample-request-response-json&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+          &lt;/div&gt;
+        &lt;/fieldset&gt;
+      &lt;/form&gt;
+    {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-compare-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot; data-compare-version=&quot;{{compare.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.group}} - {{{showDiff article.title compare.title}}}&lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;btn btn-success&quot; disabled&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt; {{__ &quot;compared to&quot;}}
+        &lt;/button&gt;
+        &lt;button class=&quot;version btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{compare.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.description}}
+      &lt;p&gt;{{{showDiff article.description compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+    {{else}}
+      {{#if compare.description}}
+      &lt;p&gt;{{{showDiff &quot;&quot; compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+      {{/if}}
+    {{/if}}
+
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;{{{showDiff article.url compare.url}}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{subTemplate &quot;article-compare-permission&quot; article=article compare=compare}}
+
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+    {{/each_compare_title}}
+    &lt;/div&gt;
+
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.parameter compare=compare.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.success compare=compare.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.error compare=compare.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-permission&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;p&gt;
+  {{__ &quot;Permission:&quot;}}
+  {{#each_compare_list_field article.permission compare.permission field=&quot;name&quot;}}
+    {{#if source}}
+      {{#if typeSame}}
+        {{source.name}}
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{source.name}}&lt;/ins&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{source.name}}&lt;/del&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{else}}
+      {{#if typeSame}}
+        {{compare.name}}
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{compare.name}}&lt;/ins&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{compare.name}}&lt;/del&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{/if}}
+  {{/each_compare_list_field}}
+  &lt;/p&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if source}}
+    {{#each_compare_keys source.fields compare.fields}}
+      {{#if typeSame}}
+        &lt;h2&gt;{{__ source.key}}&lt;/h2&gt;
+        &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;h2&gt;&lt;ins&gt;{{__ source.key}}&lt;/ins&gt;&lt;/h2&gt;
+        &lt;table class=&quot;ins&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=source.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;h2&gt;&lt;del&gt;{{__ compare.key}}&lt;/del&gt;&lt;/h2&gt;
+        &lt;table class=&quot;del&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=compare.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+    {{/each_compare_keys}}
+
+    {{#if source.examples}}
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block-body&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;tbody&gt;
+    {{#each_compare_field source compare}}
+      {{#if typeSame}}
+        &lt;tr&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{else}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{/if}}
+            {{else}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+            {{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{showDiff source.type compare.type}}}&lt;/td&gt;
+          {{else}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+          {{/if}}
+        {{else}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+          {{else}}
+            {{#if ../../../../_hasType}}&lt;td&gt;&lt;/td&gt;{{/if}}
+          {{/if}}
+        {{/if}}
+          &lt;td&gt;
+            {{{showDiff source.description compare.description &quot;nl2br&quot;}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{showDiff source.defaultValue compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;tr class=&quot;ins&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br source.description}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{source.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;tr class=&quot;del&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill compare.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br compare.description}}}
+            {{#if compare.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+    {{/each_compare_field}}
+  &lt;/tbody&gt;
+&lt;/script&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div id=&quot;sidenav&quot; class=&quot;span2&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;content&quot;&gt;
+      &lt;div id=&quot;project&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;header&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;sections&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;generator&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;loader&quot;&gt;
+  &lt;div class=&quot;spinner&quot;&gt;
+    &lt;div class=&quot;spinner-container container1&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container2&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container3&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Loading...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script data-main=&quot;main.js&quot; src=&quot;vendor/require.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">91</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">13:56:45.192 [print] &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+  &lt;title&gt;Loading...&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+  &lt;link href=&quot;vendor/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+  &lt;link href=&quot;vendor/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+  &lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen, print&quot;&gt;
+  &lt;link href=&quot;img/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot;&gt;
+  &lt;script src=&quot;vendor/polyfill.js&quot;&gt;&lt;/script&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body class=&quot;container-fluid&quot;&gt;
+
+&lt;script id=&quot;template-sidenav&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+&lt;nav id=&quot;scrollingNav&quot;&gt;
+  &lt;div class=&quot;sidenav-search&quot;&gt;
+    &lt;input class=&quot;form-control search&quot; type=&quot;text&quot; placeholder=&quot;{{__ &quot;Filter...&quot;}}&quot;&gt;
+    &lt;span class=&quot;search-reset&quot;&gt;x&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;sidenav nav nav-list list&quot;&gt;
+  {{#each nav}}
+    {{#if title}}
+      {{#if isHeader}}
+        {{#if isFixed}}
+          &lt;li class=&quot;nav-fixed nav-header navbar-btn nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-name=&quot;show-api-{{group}}&quot; class=&quot;show-api api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{else}}
+          &lt;li class=&quot;nav-header nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-group=&quot;show-api-{{group}}&quot; class=&quot;show-group api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{/if}}
+      {{else}}
+        &lt;li class=&quot;{{#if hidden}}hide {{/if}}&quot; data-group=&quot;{{group}}&quot; data-name=&quot;{{name}}&quot; data-version=&quot;{{version}}&quot;&gt;
+          &lt;a href=&quot;#api-{{group}}-{{name}}&quot; title=&quot;{{url}}&quot; data-group=&quot;show-api-{{group}}&quot; data-name=&quot;show-api-{{group}}-{{name}}&quot; class=&quot;nav-list-item show-api api-{{group}}-{{name}}-init&quot;&gt;{{title}}&lt;div class=&quot;nav-list-url-item hide&quot;&gt;{{url}}&lt;/div&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/if}}
+  {{/each}}
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-project&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;div class=&quot;pull-left&quot;&gt;
+    &lt;h1&gt;{{name}}&lt;/h1&gt;
+    {{#if description}}&lt;h2&gt;{{{nl2br description}}}&lt;/h2&gt;{{/if}}
+    &lt;p&gt;&lt;a href=&quot;https://www.buymeacoffee.com/mwinteringham&quot;&gt;&lt;img src=&quot;https://img.buymeacoffee.com/button-api/?text=Buy me a tea&amp;emoji=&amp;slug=mwinteringham&amp;button_colour=5F7FFF&amp;font_colour=ffffff&amp;font_family=Lato&amp;outline_colour=000000&amp;coffee_colour=FFDD00&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pull-right&quot;&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;btn-group&quot;&gt;
+      &lt;button id=&quot;version&quot; class=&quot;btn btn-lg btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+        &lt;strong&gt;{{version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;ul id=&quot;versions&quot; class=&quot;dropdown-menu open-left&quot;&gt;
+        &lt;li&gt;&lt;a id=&quot;compareAllWithPredecessor&quot; href=&quot;#&quot;&gt;{{__ &quot;Compare all with predecessor&quot;}}&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;show up to version:&quot;}}&lt;/a&gt;&lt;/li&gt;
+      {{#each versions}}
+        &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    {{else}}
+    &lt;div id=&quot;version&quot; class=&quot;well well-sm&quot;&gt;
+      &lt;strong&gt;{{version}}&lt;/strong&gt;
+    &lt;/div&gt;
+    {{/if}}
+  &lt;/div&gt;
+  &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-header&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-footer&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_footer&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-generator&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if template.withGenerator}}
+    {{#if generator}}
+      &lt;div class=&quot;content&quot;&gt;
+        {{__ &quot;Generated with&quot;}} &lt;a href=&quot;{{{generator.url}}}&quot;&gt;{{{generator.name}}}&lt;/a&gt; {{{generator.version}}} - {{{generator.time}}}
+      &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-sections&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;section id=&quot;api-{{group}}&quot; class=&quot;show-api-group show-api-{{group}}-group {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+    &lt;h1&gt;{{underscoreToSpace title}}&lt;/h1&gt;
+    {{#if description}}
+      &lt;p&gt;{{{nl2br description}}}&lt;/p&gt;
+    {{/if}}
+    {{#each articles}}
+      &lt;div id=&quot;api-{{group}}-{{name}}&quot; class=&quot;show-api-article show-api-{{group}}-article show-api-{{group}}-{{name}}-article {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+        {{{article}}}
+      &lt;/div&gt;
+    {{/each}}
+  &lt;/section&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.groupTitle}}{{#if article.title}} - {{article.title}}{{/if}}&lt;/h1&gt;
+    &lt;/div&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;version btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    {{/if}}
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.author}}&lt;h4 class=&quot;muted&quot;&gt;Authored by: {{article.author}}&lt;/h4&gt;{{/if}}
+
+    {{#if article.deprecated}}
+      &lt;p class=&quot;deprecated&quot;&gt;&lt;span&gt;{{__ &quot;DEPRECATED&quot;}}&lt;/span&gt;
+        {{{markdown article.deprecated.content}}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{#if article.description}}
+      &lt;p&gt;{{{nl2br article.description}}}&lt;/p&gt;
+    {{/if}}
+    &lt;span class=&quot;type type__{{toLowerCase article.type}}&quot;&gt;{{toLowerCase article.type}}&lt;/span&gt;
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-http&quot;&gt;{{article.url}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{#if article.permission}}
+      &lt;p&gt;
+        {{__ &quot;Permission:&quot;}}
+        {{#each article.permission}}
+          {{name}}
+          {{#if title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{title}}&quot; data-content=&quot;{{nl2br description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+              &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{/if}}
+        {{/each}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{!-- CODE EXAMPLES IN TABS --}}
+    {{#if_gt article.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+        {{#each article.examples}}
+          &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+            &lt;a href=&quot;#examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+          &lt;/li&gt;
+        {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each article.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;examples-{{../id}}-{{@index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{content}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+
+    {{subTemplate &quot;article-param-block&quot; params=article.header _hasType=_hasTypeInHeaderFields section=&quot;header&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if params}}
+    {{#each params.fields}}
+      &lt;h2&gt;{{__ @key}}&lt;/h2&gt;
+      &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+          &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        {{#each this}}
+          &lt;tr&gt;
+            &lt;td class=&quot;code&quot;&gt;{{{splitFill field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}{{#if optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}&lt;/td&gt;
+            {{#if ../../_hasType}}
+              &lt;td&gt;
+                {{{type}}}
+              &lt;/td&gt;
+            {{/if}}
+            &lt;td&gt;
+            {{{nl2br description}}}
+            {{#if defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{defaultValue}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if size}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Size range:&quot;}} &lt;code&gt;{{{size}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if allowedValues}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Allowed values:&quot;}}
+              {{#each allowedValues}}
+                &lt;code&gt;{{{this}}}&lt;/code&gt;{{#unless @last}}, {{/unless}}
+              {{/each}}
+              &lt;/p&gt;
+            {{/if}}
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        {{/each}}
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    {{/each}}
+    {{#if_gt params.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+      {{#each params.examples}}
+        &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each params.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;
+        &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{reformat content type}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-sample-request&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    {{#if article.sampleRequest}}
+      &lt;h2&gt;{{__ &quot;Send a Sample Request&quot;}}&lt;/h2&gt;
+      &lt;form class=&quot;form-horizontal&quot;&gt;
+        &lt;fieldset&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;{{../id}}-sample-request-url&quot;&gt;&lt;/label&gt;
+              &lt;div class=&quot;input-group&quot;&gt;
+                &lt;input id=&quot;{{../id}}-sample-request-url&quot; type=&quot;text&quot; class=&quot;form-control sample-request-url&quot; value=&quot;{{article.sampleRequest.0.url}}&quot; /&gt;
+                &lt;span class=&quot;input-group-addon&quot;&gt;{{__ &quot;url&quot;}}&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+      {{#if article.header}}
+        {{#if article.header.fields}}
+          &lt;h3&gt;{{__ &quot;Headers&quot;}}&lt;/h3&gt;
+          {{#each article.header.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-header-group-id=&quot;sample-request-header-{{@index}}&quot; name=&quot;{{../id}}-sample-request-header&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-header sample-request-switch&quot; checked /&gt;{{__ @key}}&lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-header-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-header-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; placeholder=&quot;{{field}}&quot; value=&quot;{{defaultValue}}&quot; id=&quot;sample-request-header-field-{{field}}&quot; class=&quot;form-control sample-request-header&quot; data-sample-request-header-name=&quot;{{field}}&quot; data-sample-request-header-group=&quot;sample-request-header-{{@../index}}&quot;&gt;
+                  &lt;span class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+      {{#if article.parameter}}
+        {{#if article.parameter.fields}}
+          &lt;h3&gt;{{__ &quot;Parameters&quot;}}&lt;/h3&gt;
+          {{#each article.parameter.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-param-group-id=&quot;sample-request-param-{{@index}}&quot;  name=&quot;{{../id}}-sample-request-param&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-param sample-request-switch&quot; checked/&gt;{{__ @key}}
+              &lt;select   name=&quot;{{../id}}-sample-header-content-type&quot; class=&quot;{{../id}}-sample-request-param-select sample-header-content-type sample-header-content-type-switch&quot;&gt;
+                &lt;option value=&quot;undefined&quot;  selected&gt;ajax-auto&lt;/option&gt;
+                &lt;option value=&quot;body-json&quot; &gt;body/json&lt;/option&gt;
+                &lt;option value=&quot;body-form-data&quot; &gt;body/form-data&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-body {{../id}}-sample-header-content-type-body hide&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;textarea id=&quot;sample-request-body-json&quot; class=&quot;form-control sample-request-body&quot; data-sample-request-body-group=&quot;sample-request-param-{{@./index}}&quot; rows=&quot;6&quot; style=&quot;OVERFLOW: visible&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;&lt;/textarea&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;json&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-fields {{../id}}-sample-header-content-type-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-param-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input id=&quot;sample-request-param-field-{{field}}&quot; type=&quot;{{setInputType type}}&quot; placeholder=&quot;{{field}}&quot; class=&quot;form-control sample-request-param&quot; data-sample-request-param-name=&quot;{{field}}&quot; data-sample-request-param-group=&quot;sample-request-param-{{@../index}}&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;div class=&quot;controls pull-right&quot;&gt;
+              &lt;button class=&quot;btn btn-primary sample-request-send&quot; data-sample-request-type=&quot;{{article.type}}&quot;&gt;{{__ &quot;Send&quot;}}&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-group sample-request-response&quot; style=&quot;display: none;&quot;&gt;
+            &lt;h3&gt;
+              {{__ &quot;Response&quot;}}
+              &lt;button class=&quot;btn btn-default btn-xs pull-right sample-request-clear&quot;&gt;X&lt;/button&gt;
+            &lt;/h3&gt;
+            &lt;pre data-type=&quot;json&quot;&gt;&lt;code class=&quot;language-json sample-request-response-json&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+          &lt;/div&gt;
+        &lt;/fieldset&gt;
+      &lt;/form&gt;
+    {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-compare-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot; data-compare-version=&quot;{{compare.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.group}} - {{{showDiff article.title compare.title}}}&lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;btn btn-success&quot; disabled&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt; {{__ &quot;compared to&quot;}}
+        &lt;/button&gt;
+        &lt;button class=&quot;version btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{compare.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.description}}
+      &lt;p&gt;{{{showDiff article.description compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+    {{else}}
+      {{#if compare.description}}
+      &lt;p&gt;{{{showDiff &quot;&quot; compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+      {{/if}}
+    {{/if}}
+
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;{{{showDiff article.url compare.url}}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{subTemplate &quot;article-compare-permission&quot; article=article compare=compare}}
+
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+    {{/each_compare_title}}
+    &lt;/div&gt;
+
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.parameter compare=compare.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.success compare=compare.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.error compare=compare.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-permission&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;p&gt;
+  {{__ &quot;Permission:&quot;}}
+  {{#each_compare_list_field article.permission compare.permission field=&quot;name&quot;}}
+    {{#if source}}
+      {{#if typeSame}}
+        {{source.name}}
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{source.name}}&lt;/ins&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{source.name}}&lt;/del&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{else}}
+      {{#if typeSame}}
+        {{compare.name}}
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{compare.name}}&lt;/ins&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{compare.name}}&lt;/del&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{/if}}
+  {{/each_compare_list_field}}
+  &lt;/p&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if source}}
+    {{#each_compare_keys source.fields compare.fields}}
+      {{#if typeSame}}
+        &lt;h2&gt;{{__ source.key}}&lt;/h2&gt;
+        &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;h2&gt;&lt;ins&gt;{{__ source.key}}&lt;/ins&gt;&lt;/h2&gt;
+        &lt;table class=&quot;ins&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=source.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;h2&gt;&lt;del&gt;{{__ compare.key}}&lt;/del&gt;&lt;/h2&gt;
+        &lt;table class=&quot;del&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=compare.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+    {{/each_compare_keys}}
+
+    {{#if source.examples}}
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block-body&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;tbody&gt;
+    {{#each_compare_field source compare}}
+      {{#if typeSame}}
+        &lt;tr&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{else}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{/if}}
+            {{else}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+            {{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{showDiff source.type compare.type}}}&lt;/td&gt;
+          {{else}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+          {{/if}}
+        {{else}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+          {{else}}
+            {{#if ../../../../_hasType}}&lt;td&gt;&lt;/td&gt;{{/if}}
+          {{/if}}
+        {{/if}}
+          &lt;td&gt;
+            {{{showDiff source.description compare.description &quot;nl2br&quot;}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{showDiff source.defaultValue compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;tr class=&quot;ins&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br source.description}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{source.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;tr class=&quot;del&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill compare.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br compare.description}}}
+            {{#if compare.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+    {{/each_compare_field}}
+  &lt;/tbody&gt;
+&lt;/script&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div id=&quot;sidenav&quot; class=&quot;span2&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;content&quot;&gt;
+      &lt;div id=&quot;project&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;header&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;sections&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;generator&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;loader&quot;&gt;
+  &lt;div class=&quot;spinner&quot;&gt;
+    &lt;div class=&quot;spinner-container container1&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container2&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container3&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Loading...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script data-main=&quot;main.js&quot; src=&quot;vendor/require.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print responseStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">13:56:45.194 [print] 200 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print responseTime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">13:56:45.195 [print] 2119 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>print responseHeader</span>
+      </div>
+    </div>
+    <div class="time-cell failed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">13:56:45.209 src/test/java/feature/getapi.feature:14
+And print responseHeader
+&gt;&gt;&gt;&gt; js failed:
+01: karate.log(&#39;[print]&#39;,responseHeader)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;responseHeader&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+src/test/java/feature/getapi.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match responseHeaders contains { &#39;Content-Encoding&#39;: &#39;#notpresent&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref skipped">16</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print responseCookies</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:19]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:19]</span>
+                <span class="scenario-name">get user details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1412</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:19]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://restful-booker.herokuapp.com/apidoc&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/index.html&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1394</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.21">13:56:45.233 request:
+1 &gt; GET https://restful-booker.herokuapp.com/apidoc/index.html
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+13:56:46.622 response time in milliseconds: 1387
+1 &lt; 200
+1 &lt; Server: Cowboy
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1707726406&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=Ww8g5iNdC%2FbKIJCrvBA77oP31uCYZ1C53zXEzhg%2FrtI%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707726406&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=Ww8g5iNdC%2FbKIJCrvBA77oP31uCYZ1C53zXEzhg%2FrtI%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Accept-Ranges: bytes
+1 &lt; Cache-Control: public, max-age=0
+1 &lt; Last-Modified: Wed, 13 Dec 2023 20:49:47 GMT
+1 &lt; Etag: W/&quot;7485-18c64f155f8&quot;
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Content-Length: 29829
+1 &lt; Date: Mon, 12 Feb 2024 08:26:46 GMT
+1 &lt; Via: 1.1 vegur
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+  &lt;title&gt;Loading...&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+  &lt;link href=&quot;vendor/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+  &lt;link href=&quot;vendor/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+  &lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen, print&quot;&gt;
+  &lt;link href=&quot;img/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot;&gt;
+  &lt;script src=&quot;vendor/polyfill.js&quot;&gt;&lt;/script&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body class=&quot;container-fluid&quot;&gt;
+
+&lt;script id=&quot;template-sidenav&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+&lt;nav id=&quot;scrollingNav&quot;&gt;
+  &lt;div class=&quot;sidenav-search&quot;&gt;
+    &lt;input class=&quot;form-control search&quot; type=&quot;text&quot; placeholder=&quot;{{__ &quot;Filter...&quot;}}&quot;&gt;
+    &lt;span class=&quot;search-reset&quot;&gt;x&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;sidenav nav nav-list list&quot;&gt;
+  {{#each nav}}
+    {{#if title}}
+      {{#if isHeader}}
+        {{#if isFixed}}
+          &lt;li class=&quot;nav-fixed nav-header navbar-btn nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-name=&quot;show-api-{{group}}&quot; class=&quot;show-api api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{else}}
+          &lt;li class=&quot;nav-header nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-group=&quot;show-api-{{group}}&quot; class=&quot;show-group api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{/if}}
+      {{else}}
+        &lt;li class=&quot;{{#if hidden}}hide {{/if}}&quot; data-group=&quot;{{group}}&quot; data-name=&quot;{{name}}&quot; data-version=&quot;{{version}}&quot;&gt;
+          &lt;a href=&quot;#api-{{group}}-{{name}}&quot; title=&quot;{{url}}&quot; data-group=&quot;show-api-{{group}}&quot; data-name=&quot;show-api-{{group}}-{{name}}&quot; class=&quot;nav-list-item show-api api-{{group}}-{{name}}-init&quot;&gt;{{title}}&lt;div class=&quot;nav-list-url-item hide&quot;&gt;{{url}}&lt;/div&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/if}}
+  {{/each}}
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-project&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;div class=&quot;pull-left&quot;&gt;
+    &lt;h1&gt;{{name}}&lt;/h1&gt;
+    {{#if description}}&lt;h2&gt;{{{nl2br description}}}&lt;/h2&gt;{{/if}}
+    &lt;p&gt;&lt;a href=&quot;https://www.buymeacoffee.com/mwinteringham&quot;&gt;&lt;img src=&quot;https://img.buymeacoffee.com/button-api/?text=Buy me a tea&amp;emoji=&amp;slug=mwinteringham&amp;button_colour=5F7FFF&amp;font_colour=ffffff&amp;font_family=Lato&amp;outline_colour=000000&amp;coffee_colour=FFDD00&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pull-right&quot;&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;btn-group&quot;&gt;
+      &lt;button id=&quot;version&quot; class=&quot;btn btn-lg btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+        &lt;strong&gt;{{version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;ul id=&quot;versions&quot; class=&quot;dropdown-menu open-left&quot;&gt;
+        &lt;li&gt;&lt;a id=&quot;compareAllWithPredecessor&quot; href=&quot;#&quot;&gt;{{__ &quot;Compare all with predecessor&quot;}}&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;show up to version:&quot;}}&lt;/a&gt;&lt;/li&gt;
+      {{#each versions}}
+        &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    {{else}}
+    &lt;div id=&quot;version&quot; class=&quot;well well-sm&quot;&gt;
+      &lt;strong&gt;{{version}}&lt;/strong&gt;
+    &lt;/div&gt;
+    {{/if}}
+  &lt;/div&gt;
+  &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-header&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-footer&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_footer&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-generator&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if template.withGenerator}}
+    {{#if generator}}
+      &lt;div class=&quot;content&quot;&gt;
+        {{__ &quot;Generated with&quot;}} &lt;a href=&quot;{{{generator.url}}}&quot;&gt;{{{generator.name}}}&lt;/a&gt; {{{generator.version}}} - {{{generator.time}}}
+      &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-sections&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;section id=&quot;api-{{group}}&quot; class=&quot;show-api-group show-api-{{group}}-group {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+    &lt;h1&gt;{{underscoreToSpace title}}&lt;/h1&gt;
+    {{#if description}}
+      &lt;p&gt;{{{nl2br description}}}&lt;/p&gt;
+    {{/if}}
+    {{#each articles}}
+      &lt;div id=&quot;api-{{group}}-{{name}}&quot; class=&quot;show-api-article show-api-{{group}}-article show-api-{{group}}-{{name}}-article {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+        {{{article}}}
+      &lt;/div&gt;
+    {{/each}}
+  &lt;/section&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.groupTitle}}{{#if article.title}} - {{article.title}}{{/if}}&lt;/h1&gt;
+    &lt;/div&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;version btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    {{/if}}
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.author}}&lt;h4 class=&quot;muted&quot;&gt;Authored by: {{article.author}}&lt;/h4&gt;{{/if}}
+
+    {{#if article.deprecated}}
+      &lt;p class=&quot;deprecated&quot;&gt;&lt;span&gt;{{__ &quot;DEPRECATED&quot;}}&lt;/span&gt;
+        {{{markdown article.deprecated.content}}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{#if article.description}}
+      &lt;p&gt;{{{nl2br article.description}}}&lt;/p&gt;
+    {{/if}}
+    &lt;span class=&quot;type type__{{toLowerCase article.type}}&quot;&gt;{{toLowerCase article.type}}&lt;/span&gt;
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-http&quot;&gt;{{article.url}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{#if article.permission}}
+      &lt;p&gt;
+        {{__ &quot;Permission:&quot;}}
+        {{#each article.permission}}
+          {{name}}
+          {{#if title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{title}}&quot; data-content=&quot;{{nl2br description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+              &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{/if}}
+        {{/each}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{!-- CODE EXAMPLES IN TABS --}}
+    {{#if_gt article.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+        {{#each article.examples}}
+          &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+            &lt;a href=&quot;#examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+          &lt;/li&gt;
+        {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each article.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;examples-{{../id}}-{{@index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{content}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+
+    {{subTemplate &quot;article-param-block&quot; params=article.header _hasType=_hasTypeInHeaderFields section=&quot;header&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if params}}
+    {{#each params.fields}}
+      &lt;h2&gt;{{__ @key}}&lt;/h2&gt;
+      &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+          &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        {{#each this}}
+          &lt;tr&gt;
+            &lt;td class=&quot;code&quot;&gt;{{{splitFill field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}{{#if optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}&lt;/td&gt;
+            {{#if ../../_hasType}}
+              &lt;td&gt;
+                {{{type}}}
+              &lt;/td&gt;
+            {{/if}}
+            &lt;td&gt;
+            {{{nl2br description}}}
+            {{#if defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{defaultValue}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if size}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Size range:&quot;}} &lt;code&gt;{{{size}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if allowedValues}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Allowed values:&quot;}}
+              {{#each allowedValues}}
+                &lt;code&gt;{{{this}}}&lt;/code&gt;{{#unless @last}}, {{/unless}}
+              {{/each}}
+              &lt;/p&gt;
+            {{/if}}
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        {{/each}}
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    {{/each}}
+    {{#if_gt params.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+      {{#each params.examples}}
+        &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each params.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;
+        &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{reformat content type}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-sample-request&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    {{#if article.sampleRequest}}
+      &lt;h2&gt;{{__ &quot;Send a Sample Request&quot;}}&lt;/h2&gt;
+      &lt;form class=&quot;form-horizontal&quot;&gt;
+        &lt;fieldset&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;{{../id}}-sample-request-url&quot;&gt;&lt;/label&gt;
+              &lt;div class=&quot;input-group&quot;&gt;
+                &lt;input id=&quot;{{../id}}-sample-request-url&quot; type=&quot;text&quot; class=&quot;form-control sample-request-url&quot; value=&quot;{{article.sampleRequest.0.url}}&quot; /&gt;
+                &lt;span class=&quot;input-group-addon&quot;&gt;{{__ &quot;url&quot;}}&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+      {{#if article.header}}
+        {{#if article.header.fields}}
+          &lt;h3&gt;{{__ &quot;Headers&quot;}}&lt;/h3&gt;
+          {{#each article.header.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-header-group-id=&quot;sample-request-header-{{@index}}&quot; name=&quot;{{../id}}-sample-request-header&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-header sample-request-switch&quot; checked /&gt;{{__ @key}}&lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-header-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-header-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; placeholder=&quot;{{field}}&quot; value=&quot;{{defaultValue}}&quot; id=&quot;sample-request-header-field-{{field}}&quot; class=&quot;form-control sample-request-header&quot; data-sample-request-header-name=&quot;{{field}}&quot; data-sample-request-header-group=&quot;sample-request-header-{{@../index}}&quot;&gt;
+                  &lt;span class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+      {{#if article.parameter}}
+        {{#if article.parameter.fields}}
+          &lt;h3&gt;{{__ &quot;Parameters&quot;}}&lt;/h3&gt;
+          {{#each article.parameter.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-param-group-id=&quot;sample-request-param-{{@index}}&quot;  name=&quot;{{../id}}-sample-request-param&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-param sample-request-switch&quot; checked/&gt;{{__ @key}}
+              &lt;select   name=&quot;{{../id}}-sample-header-content-type&quot; class=&quot;{{../id}}-sample-request-param-select sample-header-content-type sample-header-content-type-switch&quot;&gt;
+                &lt;option value=&quot;undefined&quot;  selected&gt;ajax-auto&lt;/option&gt;
+                &lt;option value=&quot;body-json&quot; &gt;body/json&lt;/option&gt;
+                &lt;option value=&quot;body-form-data&quot; &gt;body/form-data&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-body {{../id}}-sample-header-content-type-body hide&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;textarea id=&quot;sample-request-body-json&quot; class=&quot;form-control sample-request-body&quot; data-sample-request-body-group=&quot;sample-request-param-{{@./index}}&quot; rows=&quot;6&quot; style=&quot;OVERFLOW: visible&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;&lt;/textarea&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;json&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-fields {{../id}}-sample-header-content-type-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-param-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input id=&quot;sample-request-param-field-{{field}}&quot; type=&quot;{{setInputType type}}&quot; placeholder=&quot;{{field}}&quot; class=&quot;form-control sample-request-param&quot; data-sample-request-param-name=&quot;{{field}}&quot; data-sample-request-param-group=&quot;sample-request-param-{{@../index}}&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;div class=&quot;controls pull-right&quot;&gt;
+              &lt;button class=&quot;btn btn-primary sample-request-send&quot; data-sample-request-type=&quot;{{article.type}}&quot;&gt;{{__ &quot;Send&quot;}}&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-group sample-request-response&quot; style=&quot;display: none;&quot;&gt;
+            &lt;h3&gt;
+              {{__ &quot;Response&quot;}}
+              &lt;button class=&quot;btn btn-default btn-xs pull-right sample-request-clear&quot;&gt;X&lt;/button&gt;
+            &lt;/h3&gt;
+            &lt;pre data-type=&quot;json&quot;&gt;&lt;code class=&quot;language-json sample-request-response-json&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+          &lt;/div&gt;
+        &lt;/fieldset&gt;
+      &lt;/form&gt;
+    {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-compare-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot; data-compare-version=&quot;{{compare.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.group}} - {{{showDiff article.title compare.title}}}&lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;btn btn-success&quot; disabled&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt; {{__ &quot;compared to&quot;}}
+        &lt;/button&gt;
+        &lt;button class=&quot;version btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{compare.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.description}}
+      &lt;p&gt;{{{showDiff article.description compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+    {{else}}
+      {{#if compare.description}}
+      &lt;p&gt;{{{showDiff &quot;&quot; compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+      {{/if}}
+    {{/if}}
+
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;{{{showDiff article.url compare.url}}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{subTemplate &quot;article-compare-permission&quot; article=article compare=compare}}
+
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+    {{/each_compare_title}}
+    &lt;/div&gt;
+
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.parameter compare=compare.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.success compare=compare.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.error compare=compare.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-permission&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;p&gt;
+  {{__ &quot;Permission:&quot;}}
+  {{#each_compare_list_field article.permission compare.permission field=&quot;name&quot;}}
+    {{#if source}}
+      {{#if typeSame}}
+        {{source.name}}
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{source.name}}&lt;/ins&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{source.name}}&lt;/del&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{else}}
+      {{#if typeSame}}
+        {{compare.name}}
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{compare.name}}&lt;/ins&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{compare.name}}&lt;/del&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{/if}}
+  {{/each_compare_list_field}}
+  &lt;/p&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if source}}
+    {{#each_compare_keys source.fields compare.fields}}
+      {{#if typeSame}}
+        &lt;h2&gt;{{__ source.key}}&lt;/h2&gt;
+        &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;h2&gt;&lt;ins&gt;{{__ source.key}}&lt;/ins&gt;&lt;/h2&gt;
+        &lt;table class=&quot;ins&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=source.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;h2&gt;&lt;del&gt;{{__ compare.key}}&lt;/del&gt;&lt;/h2&gt;
+        &lt;table class=&quot;del&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=compare.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+    {{/each_compare_keys}}
+
+    {{#if source.examples}}
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block-body&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;tbody&gt;
+    {{#each_compare_field source compare}}
+      {{#if typeSame}}
+        &lt;tr&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{else}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{/if}}
+            {{else}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+            {{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{showDiff source.type compare.type}}}&lt;/td&gt;
+          {{else}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+          {{/if}}
+        {{else}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+          {{else}}
+            {{#if ../../../../_hasType}}&lt;td&gt;&lt;/td&gt;{{/if}}
+          {{/if}}
+        {{/if}}
+          &lt;td&gt;
+            {{{showDiff source.description compare.description &quot;nl2br&quot;}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{showDiff source.defaultValue compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;tr class=&quot;ins&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br source.description}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{source.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;tr class=&quot;del&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill compare.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br compare.description}}}
+            {{#if compare.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+    {{/each_compare_field}}
+  &lt;/tbody&gt;
+&lt;/script&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div id=&quot;sidenav&quot; class=&quot;span2&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;content&quot;&gt;
+      &lt;div id=&quot;project&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;header&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;sections&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;generator&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;loader&quot;&gt;
+  &lt;div class=&quot;spinner&quot;&gt;
+    &lt;div class=&quot;spinner-container container1&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container2&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container3&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Loading...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script data-main=&quot;main.js&quot; src=&quot;vendor/require.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">13:56:46.626 [print] &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+  &lt;title&gt;Loading...&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+  &lt;link href=&quot;vendor/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+  &lt;link href=&quot;vendor/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+  &lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen, print&quot;&gt;
+  &lt;link href=&quot;img/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot;&gt;
+  &lt;script src=&quot;vendor/polyfill.js&quot;&gt;&lt;/script&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-2Q48X98CJ6&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-2Q48X98CJ6&#39;);
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body class=&quot;container-fluid&quot;&gt;
+
+&lt;script id=&quot;template-sidenav&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+&lt;nav id=&quot;scrollingNav&quot;&gt;
+  &lt;div class=&quot;sidenav-search&quot;&gt;
+    &lt;input class=&quot;form-control search&quot; type=&quot;text&quot; placeholder=&quot;{{__ &quot;Filter...&quot;}}&quot;&gt;
+    &lt;span class=&quot;search-reset&quot;&gt;x&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;sidenav nav nav-list list&quot;&gt;
+  {{#each nav}}
+    {{#if title}}
+      {{#if isHeader}}
+        {{#if isFixed}}
+          &lt;li class=&quot;nav-fixed nav-header navbar-btn nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-name=&quot;show-api-{{group}}&quot; class=&quot;show-api api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{else}}
+          &lt;li class=&quot;nav-header nav-list-item&quot; data-group=&quot;{{group}}&quot;&gt;&lt;a href=&quot;#api-{{group}}&quot; data-group=&quot;show-api-{{group}}&quot; class=&quot;show-group api-{{group}}-init&quot;&gt;{{underscoreToSpace title}}&lt;/a&gt;&lt;/li&gt;
+        {{/if}}
+      {{else}}
+        &lt;li class=&quot;{{#if hidden}}hide {{/if}}&quot; data-group=&quot;{{group}}&quot; data-name=&quot;{{name}}&quot; data-version=&quot;{{version}}&quot;&gt;
+          &lt;a href=&quot;#api-{{group}}-{{name}}&quot; title=&quot;{{url}}&quot; data-group=&quot;show-api-{{group}}&quot; data-name=&quot;show-api-{{group}}-{{name}}&quot; class=&quot;nav-list-item show-api api-{{group}}-{{name}}-init&quot;&gt;{{title}}&lt;div class=&quot;nav-list-url-item hide&quot;&gt;{{url}}&lt;/div&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/if}}
+  {{/each}}
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-project&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;div class=&quot;pull-left&quot;&gt;
+    &lt;h1&gt;{{name}}&lt;/h1&gt;
+    {{#if description}}&lt;h2&gt;{{{nl2br description}}}&lt;/h2&gt;{{/if}}
+    &lt;p&gt;&lt;a href=&quot;https://www.buymeacoffee.com/mwinteringham&quot;&gt;&lt;img src=&quot;https://img.buymeacoffee.com/button-api/?text=Buy me a tea&amp;emoji=&amp;slug=mwinteringham&amp;button_colour=5F7FFF&amp;font_colour=ffffff&amp;font_family=Lato&amp;outline_colour=000000&amp;coffee_colour=FFDD00&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pull-right&quot;&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;btn-group&quot;&gt;
+      &lt;button id=&quot;version&quot; class=&quot;btn btn-lg btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+        &lt;strong&gt;{{version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;ul id=&quot;versions&quot; class=&quot;dropdown-menu open-left&quot;&gt;
+        &lt;li&gt;&lt;a id=&quot;compareAllWithPredecessor&quot; href=&quot;#&quot;&gt;{{__ &quot;Compare all with predecessor&quot;}}&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;show up to version:&quot;}}&lt;/a&gt;&lt;/li&gt;
+      {{#each versions}}
+        &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    {{else}}
+    &lt;div id=&quot;version&quot; class=&quot;well well-sm&quot;&gt;
+      &lt;strong&gt;{{version}}&lt;/strong&gt;
+    &lt;/div&gt;
+    {{/if}}
+  &lt;/div&gt;
+  &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-header&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-footer&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if content}}
+    &lt;div id=&quot;api-_footer&quot; class=&quot;show-api-article show-api-_-article&quot;&gt;{{{content}}}&lt;/div&gt;
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-generator&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if template.withGenerator}}
+    {{#if generator}}
+      &lt;div class=&quot;content&quot;&gt;
+        {{__ &quot;Generated with&quot;}} &lt;a href=&quot;{{{generator.url}}}&quot;&gt;{{{generator.name}}}&lt;/a&gt; {{{generator.version}}} - {{{generator.time}}}
+      &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-sections&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;section id=&quot;api-{{group}}&quot; class=&quot;show-api-group show-api-{{group}}-group {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+    &lt;h1&gt;{{underscoreToSpace title}}&lt;/h1&gt;
+    {{#if description}}
+      &lt;p&gt;{{{nl2br description}}}&lt;/p&gt;
+    {{/if}}
+    {{#each articles}}
+      &lt;div id=&quot;api-{{group}}-{{name}}&quot; class=&quot;show-api-article show-api-{{group}}-article show-api-{{group}}-{{name}}-article {{#if aloneDisplay}} hide{{/if}}&quot;&gt;
+        {{{article}}}
+      &lt;/div&gt;
+    {{/each}}
+  &lt;/section&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.groupTitle}}{{#if article.title}} - {{article.title}}{{/if}}&lt;/h1&gt;
+    &lt;/div&gt;
+    {{#if template.withCompare}}
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;version btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    {{/if}}
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.author}}&lt;h4 class=&quot;muted&quot;&gt;Authored by: {{article.author}}&lt;/h4&gt;{{/if}}
+
+    {{#if article.deprecated}}
+      &lt;p class=&quot;deprecated&quot;&gt;&lt;span&gt;{{__ &quot;DEPRECATED&quot;}}&lt;/span&gt;
+        {{{markdown article.deprecated.content}}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{#if article.description}}
+      &lt;p&gt;{{{nl2br article.description}}}&lt;/p&gt;
+    {{/if}}
+    &lt;span class=&quot;type type__{{toLowerCase article.type}}&quot;&gt;{{toLowerCase article.type}}&lt;/span&gt;
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-http&quot;&gt;{{article.url}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{#if article.permission}}
+      &lt;p&gt;
+        {{__ &quot;Permission:&quot;}}
+        {{#each article.permission}}
+          {{name}}
+          {{#if title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{title}}&quot; data-content=&quot;{{nl2br description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+              &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{/if}}
+        {{/each}}
+      &lt;/p&gt;
+    {{/if}}
+
+    {{!-- CODE EXAMPLES IN TABS --}}
+    {{#if_gt article.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+        {{#each article.examples}}
+          &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+            &lt;a href=&quot;#examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+          &lt;/li&gt;
+        {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each article.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;examples-{{../id}}-{{@index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{content}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+
+    {{subTemplate &quot;article-param-block&quot; params=article.header _hasType=_hasTypeInHeaderFields section=&quot;header&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-param-block&quot; params=article.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if params}}
+    {{#each params.fields}}
+      &lt;h2&gt;{{__ @key}}&lt;/h2&gt;
+      &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+          &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        {{#each this}}
+          &lt;tr&gt;
+            &lt;td class=&quot;code&quot;&gt;{{{splitFill field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}{{#if optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}&lt;/td&gt;
+            {{#if ../../_hasType}}
+              &lt;td&gt;
+                {{{type}}}
+              &lt;/td&gt;
+            {{/if}}
+            &lt;td&gt;
+            {{{nl2br description}}}
+            {{#if defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{defaultValue}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if size}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Size range:&quot;}} &lt;code&gt;{{{size}}}&lt;/code&gt;&lt;/p&gt;{{/if}}
+            {{#if allowedValues}}&lt;p class=&quot;type-size&quot;&gt;{{__ &quot;Allowed values:&quot;}}
+              {{#each allowedValues}}
+                &lt;code&gt;{{{this}}}&lt;/code&gt;{{#unless @last}}, {{/unless}}
+              {{/each}}
+              &lt;/p&gt;
+            {{/if}}
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        {{/each}}
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    {{/each}}
+    {{#if_gt params.examples.length compare=0}}
+      &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+      {{#each params.examples}}
+        &lt;li{{#if_eq @index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;{{title}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/each}}
+      &lt;/ul&gt;
+
+      &lt;div class=&quot;tab-content&quot;&gt;
+      {{#each params.examples}}
+        &lt;div class=&quot;tab-pane{{#if_eq @index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../section}}-examples-{{../id}}-{{@index}}&quot;&gt;
+        &lt;pre data-type=&quot;{{type}}&quot;&gt;&lt;code class=&quot;language-{{type}}&quot;&gt;{{reformat content type}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/each}}
+      &lt;/div&gt;
+    {{/if_gt}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-sample-request&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    {{#if article.sampleRequest}}
+      &lt;h2&gt;{{__ &quot;Send a Sample Request&quot;}}&lt;/h2&gt;
+      &lt;form class=&quot;form-horizontal&quot;&gt;
+        &lt;fieldset&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;{{../id}}-sample-request-url&quot;&gt;&lt;/label&gt;
+              &lt;div class=&quot;input-group&quot;&gt;
+                &lt;input id=&quot;{{../id}}-sample-request-url&quot; type=&quot;text&quot; class=&quot;form-control sample-request-url&quot; value=&quot;{{article.sampleRequest.0.url}}&quot; /&gt;
+                &lt;span class=&quot;input-group-addon&quot;&gt;{{__ &quot;url&quot;}}&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+      {{#if article.header}}
+        {{#if article.header.fields}}
+          &lt;h3&gt;{{__ &quot;Headers&quot;}}&lt;/h3&gt;
+          {{#each article.header.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-header-group-id=&quot;sample-request-header-{{@index}}&quot; name=&quot;{{../id}}-sample-request-header&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-header sample-request-switch&quot; checked /&gt;{{__ @key}}&lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-header-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-header-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input type=&quot;text&quot; placeholder=&quot;{{field}}&quot; value=&quot;{{defaultValue}}&quot; id=&quot;sample-request-header-field-{{field}}&quot; class=&quot;form-control sample-request-header&quot; data-sample-request-header-name=&quot;{{field}}&quot; data-sample-request-header-group=&quot;sample-request-header-{{@../index}}&quot;&gt;
+                  &lt;span class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+      {{#if article.parameter}}
+        {{#if article.parameter.fields}}
+          &lt;h3&gt;{{__ &quot;Parameters&quot;}}&lt;/h3&gt;
+          {{#each article.parameter.fields}}
+            &lt;h4&gt;&lt;input type=&quot;checkbox&quot; data-sample-request-param-group-id=&quot;sample-request-param-{{@index}}&quot;  name=&quot;{{../id}}-sample-request-param&quot; value=&quot;{{@index}}&quot; class=&quot;sample-request-param sample-request-switch&quot; checked/&gt;{{__ @key}}
+              &lt;select   name=&quot;{{../id}}-sample-header-content-type&quot; class=&quot;{{../id}}-sample-request-param-select sample-header-content-type sample-header-content-type-switch&quot;&gt;
+                &lt;option value=&quot;undefined&quot;  selected&gt;ajax-auto&lt;/option&gt;
+                &lt;option value=&quot;body-json&quot; &gt;body/json&lt;/option&gt;
+                &lt;option value=&quot;body-form-data&quot; &gt;body/form-data&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/h4&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-body {{../id}}-sample-header-content-type-body hide&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;textarea id=&quot;sample-request-body-json&quot; class=&quot;form-control sample-request-body&quot; data-sample-request-body-group=&quot;sample-request-param-{{@./index}}&quot; rows=&quot;6&quot; style=&quot;OVERFLOW: visible&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;&lt;/textarea&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;json&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;{{../id}}-sample-request-param-fields {{../id}}-sample-header-content-type-fields&quot;&gt;
+              {{#each this}}
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label class=&quot;col-md-3 control-label&quot; for=&quot;sample-request-param-field-{{field}}&quot;&gt;{{field}}&lt;/label&gt;
+                &lt;div class=&quot;input-group&quot;&gt;
+                  &lt;input id=&quot;sample-request-param-field-{{field}}&quot; type=&quot;{{setInputType type}}&quot; placeholder=&quot;{{field}}&quot; class=&quot;form-control sample-request-param&quot; data-sample-request-param-name=&quot;{{field}}&quot; data-sample-request-param-group=&quot;sample-request-param-{{@../index}}&quot; {{#if optional}}data-sample-request-param-optional=&quot;true&quot;{{/if}}&gt;
+                  &lt;div class=&quot;input-group-addon&quot;&gt;{{{type}}}&lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              {{/each}}
+            &lt;/div&gt;
+          {{/each}}
+        {{/if}}
+      {{/if}}
+
+          &lt;div class=&quot;form-group&quot;&gt;
+            &lt;div class=&quot;controls pull-right&quot;&gt;
+              &lt;button class=&quot;btn btn-primary sample-request-send&quot; data-sample-request-type=&quot;{{article.type}}&quot;&gt;{{__ &quot;Send&quot;}}&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;form-group sample-request-response&quot; style=&quot;display: none;&quot;&gt;
+            &lt;h3&gt;
+              {{__ &quot;Response&quot;}}
+              &lt;button class=&quot;btn btn-default btn-xs pull-right sample-request-clear&quot;&gt;X&lt;/button&gt;
+            &lt;/h3&gt;
+            &lt;pre data-type=&quot;json&quot;&gt;&lt;code class=&quot;language-json sample-request-response-json&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+          &lt;/div&gt;
+        &lt;/fieldset&gt;
+      &lt;/form&gt;
+    {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-compare-article&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;article id=&quot;api-{{article.group}}-{{article.name}}-{{article.version}}&quot; {{#if hidden}}class=&quot;hide&quot;{{/if}} data-group=&quot;{{article.group}}&quot; data-name=&quot;{{article.name}}&quot; data-version=&quot;{{article.version}}&quot; data-compare-version=&quot;{{compare.version}}&quot;&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;
+      &lt;h1&gt;{{underscoreToSpace article.group}} - {{{showDiff article.title compare.title}}}&lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;pull-right&quot;&gt;
+      &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button class=&quot;btn btn-success&quot; disabled&gt;
+          &lt;strong&gt;{{article.version}}&lt;/strong&gt; {{__ &quot;compared to&quot;}}
+        &lt;/button&gt;
+        &lt;button class=&quot;version btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;
+          &lt;strong&gt;{{compare.version}}&lt;/strong&gt;&amp;nbsp;&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;versions dropdown-menu open-left&quot;&gt;
+          &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{__ &quot;compare changes to:&quot;}}&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        {{#each versions}}
+          &lt;li class=&quot;version&quot;&gt;&lt;a href=&quot;#&quot;&gt;{{this}}&lt;/a&gt;&lt;/li&gt;
+        {{/each}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+    {{#if article.description}}
+      &lt;p&gt;{{{showDiff article.description compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+    {{else}}
+      {{#if compare.description}}
+      &lt;p&gt;{{{showDiff &quot;&quot; compare.description &quot;nl2br&quot;}}}&lt;/p&gt;
+      {{/if}}
+    {{/if}}
+
+    &lt;pre data-type=&quot;{{toLowerCase article.type}}&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;{{{showDiff article.url compare.url}}}&lt;/code&gt;&lt;/pre&gt;
+
+    {{subTemplate &quot;article-compare-permission&quot; article=article compare=compare}}
+
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title article.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+    {{/each_compare_title}}
+    &lt;/div&gt;
+
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.parameter compare=compare.parameter _hasType=_hasTypeInParameterFields section=&quot;parameter&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.success compare=compare.success _hasType=_hasTypeInSuccessFields section=&quot;success&quot;}}
+    {{subTemplate &quot;article-compare-param-block&quot; source=article.error compare=compare.error _col1=&quot;Name&quot; _hasType=_hasTypeInErrorFields section=&quot;error&quot;}}
+
+    {{subTemplate &quot;article-sample-request&quot; article=article id=id}}
+
+  &lt;/article&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-permission&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;p&gt;
+  {{__ &quot;Permission:&quot;}}
+  {{#each_compare_list_field article.permission compare.permission field=&quot;name&quot;}}
+    {{#if source}}
+      {{#if typeSame}}
+        {{source.name}}
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{source.name}}&lt;/ins&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{source.name}}&lt;/del&gt;
+        {{#if source.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{source.title}}&quot; data-content=&quot;{{nl2br source.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{else}}
+      {{#if typeSame}}
+        {{compare.name}}
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;ins&gt;{{compare.name}}&lt;/ins&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;del&gt;{{compare.name}}&lt;/del&gt;
+        {{#if compare.title}}
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-xs&quot; data-title=&quot;{{compare.title}}&quot; data-content=&quot;{{nl2br compare.description}}&quot; data-html=&quot;true&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-trigger=&quot;hover&quot;&gt;
+            &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          {{#unless _last}}, {{/unless}}
+        {{/if}}
+      {{/if}}
+    {{/if}}
+  {{/each_compare_list_field}}
+  &lt;/p&gt;
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  {{#if source}}
+    {{#each_compare_keys source.fields compare.fields}}
+      {{#if typeSame}}
+        &lt;h2&gt;{{__ source.key}}&lt;/h2&gt;
+        &lt;table&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;h2&gt;&lt;ins&gt;{{__ source.key}}&lt;/ins&gt;&lt;/h2&gt;
+        &lt;table class=&quot;ins&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=source.value compare=source.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;h2&gt;&lt;del&gt;{{__ compare.key}}&lt;/del&gt;&lt;/h2&gt;
+        &lt;table class=&quot;del&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th style=&quot;width: 30%&quot;&gt;{{#if ../_col1}}{{__ ../_col1}}{{else}}{{__ &quot;Field&quot;}}{{/if}}&lt;/th&gt;
+            {{#if ../_hasType}}&lt;th style=&quot;width: 10%&quot;&gt;{{__ &quot;Type&quot;}}&lt;/th&gt;{{/if}}
+            &lt;th style=&quot;width: {{#if ../_hasType}}60%{{else}}70%{{/if}}&quot;&gt;{{__ &quot;Description&quot;}}&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        {{subTemplate &quot;article-compare-param-block-body&quot; source=compare.value compare=compare.value _hasType=../_hasType}}
+        &lt;/table&gt;
+      {{/if}}
+    {{/each_compare_keys}}
+
+    {{#if source.examples}}
+    &lt;ul class=&quot;nav nav-tabs nav-tabs-examples&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+      {{#if typeSame}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;{{{showDiff source.title compare.title}}}&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;ins&gt;{{{source.title}}}&lt;/ins&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;li{{#if_eq index compare=0}} class=&quot;active&quot;{{/if_eq}}&gt;
+          &lt;a href=&quot;#{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;&lt;del&gt;{{{compare.title}}}&lt;/del&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;tab-content&quot;&gt;
+    {{#each_compare_title source.examples compare.examples}}
+
+      {{#if typeSame}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{showDiff source.content compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{source.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{source.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;div class=&quot;tab-pane{{#if_eq index compare=0}} active{{/if_eq}}&quot; id=&quot;{{../../section}}-compare-examples-{{../../article.id}}-{{index}}&quot;&gt;
+          &lt;pre data-type=&quot;{{compare.type}}&quot;&gt;&lt;code class=&quot;language-{{source.type}}&quot;&gt;{{{compare.content}}}&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      {{/if}}
+    {{/each_compare_title}}
+    &lt;/div&gt;
+    {{/if}}
+  {{/if}}
+&lt;/script&gt;
+
+&lt;script id=&quot;template-article-compare-param-block-body&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+  &lt;tbody&gt;
+    {{#each_compare_field source compare}}
+      {{#if typeSame}}
+        &lt;tr&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{else}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;
+              {{/if}}
+            {{else}}
+              {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+            {{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{showDiff source.type compare.type}}}&lt;/td&gt;
+          {{else}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+          {{/if}}
+        {{else}}
+          {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+          {{else}}
+            {{#if ../../../../_hasType}}&lt;td&gt;&lt;/td&gt;{{/if}}
+          {{/if}}
+        {{/if}}
+          &lt;td&gt;
+            {{{showDiff source.description compare.description &quot;nl2br&quot;}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{showDiff source.defaultValue compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeIns}}
+        &lt;tr class=&quot;ins&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill source.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if source.optional}} &lt;span class=&quot;label label-optional label-ins&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if source.type}}
+          &lt;td&gt;{{{source.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br source.description}}}
+            {{#if source.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{source.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+      {{#if typeDel}}
+        &lt;tr class=&quot;del&quot;&gt;
+          &lt;td class=&quot;code&quot;&gt;
+            {{{splitFill compare.field &quot;.&quot; &quot;&amp;nbsp;&amp;nbsp;&quot;}}}
+            {{#if compare.optional}} &lt;span class=&quot;label label-optional label-del&quot;&gt;{{__ &quot;optional&quot;}}&lt;/span&gt;{{/if}}
+          &lt;/td&gt;
+
+        {{#if compare.type}}
+          &lt;td&gt;{{{compare.type}}}&lt;/td&gt;
+        {{else}}
+          {{{typRowTd}}}
+        {{/if}}
+
+          &lt;td&gt;
+            {{{nl2br compare.description}}}
+            {{#if compare.defaultValue}}&lt;p class=&quot;default-value&quot;&gt;{{__ &quot;Default value:&quot;}} &lt;code&gt;{{{compare.defaultValue}}}&lt;/code&gt;&lt;p&gt;{{/if}}
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      {{/if}}
+
+    {{/each_compare_field}}
+  &lt;/tbody&gt;
+&lt;/script&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div id=&quot;sidenav&quot; class=&quot;span2&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;content&quot;&gt;
+      &lt;div id=&quot;project&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;header&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;sections&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;generator&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;loader&quot;&gt;
+  &lt;div class=&quot;spinner&quot;&gt;
+    &lt;div class=&quot;spinner-container container1&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container2&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spinner-container container3&quot;&gt;
+      &lt;div class=&quot;circle1&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle2&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle3&quot;&gt;&lt;/div&gt;&lt;div class=&quot;circle4&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Loading...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script data-main=&quot;main.js&quot; src=&quot;vendor/require.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
